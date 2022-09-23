@@ -10,11 +10,19 @@ function Home() {
             <img src="/linkedin.png" width={22} height={22} />
           </a>
         </div>
+
         <h1 className="text-center text-xl pb-20">Portfolio</h1>
-        <div className="grid grid-cols-2 gaps-4 place-content-evenly">
+
+        <div className="grid grid-cols-2 gaps-4 place-content-evenly py-6">
           <div className="text-center px-5">
             <p>Serge-Olivier Malouin</p>
             <p className="text-base">Software engineer student</p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gaps-4 place-content-evenly py-6">
+          <div className="text-center px-5">
+            <p>Skills</p>
           </div>
         </div>
       </div>
