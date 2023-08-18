@@ -6,7 +6,11 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lato: ["lato", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
