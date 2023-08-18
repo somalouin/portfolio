@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center py-8 bg-slate-200 dark:bg-zinc-900 font-lato font-bold text-lg text-slate-700 dark:text-zinc-400">
-        <div className="md:w-2/3 lg:w-2/5">
-          <div id="me" className="grid grid-cols-8 gap-4 py-8">
+        <div className="md:w-2/3 lg:w-1/2 xl:1/4 min-h-screen max-h-full">
+          <div id="me" className="grid grid-cols-8 py-8">
             <div className="col-start-1 col-end-6 text-2xl px-5 pb-6">
               <p>Serge-Olivier Malouin</p>
               <p className="text-base py-4"> back-end developer</p>
@@ -21,7 +21,7 @@ export default function Home() {
           <div id="content">
             <div
               id="about"
-              className="grid grid-cols-1 place-content-evenly py-10"
+              className="grid grid-cols-1 place-content-evenly py-16"
             >
               <div className="px-5">
                 <p className="underline py-2">about</p>
@@ -35,14 +35,14 @@ export default function Home() {
 
             <div
               id="skills"
-              className="grid grid-cols-1 place-content-evenly py-10"
+              className="grid grid-cols-1 place-content-evenly py-16"
             >
               <div className="px-5">
                 <p className="underline py-2">skills</p>
                 <p className="text-base">
                   I have experience with these technologies :
                 </p>
-                <div className="px-6 pt-8 gap-4 grid grid-cols-8 place-content-evenly">
+                <div className="pt-4 gap-4 grid grid-cols-8 place-content-evenly">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
@@ -73,7 +73,7 @@ export default function Home() {
 
             {/* <div
               id="projects"
-              className="grid grid-cols-1 place-content-evenly py-10"
+              className="grid grid-cols-1 place-content-evenly py-16"
             >
               <div className="px-5">
                 <p className="underline py-2">projects </p>
@@ -85,7 +85,7 @@ export default function Home() {
 
             <div
               id="contact"
-              className="grid grid-cols-1 place-content-evenly py-10"
+              className="grid grid-cols-1 place-content-evenly py-16"
             >
               <div className="px-5">
                 <p className="underline py-2">contact me</p>
