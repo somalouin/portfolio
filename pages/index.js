@@ -24,7 +24,7 @@ export default function Home() {
               className="grid grid-cols-1 place-content-evenly py-16"
             >
               <div className="px-5">
-                <p className="underline py-2">about</p>
+                <p className="text-xl py-6">about</p>
                 <p className="text-base">
                   hello, I am currently a software engineering student at the
                   École de technologie supérieure in Montreal. I have more than
@@ -32,13 +32,12 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
             <div
               id="skills"
               className="grid grid-cols-1 place-content-evenly py-16"
             >
               <div className="px-5">
-                <p className="underline py-2">skills</p>
+                <p className="text-xl py-6">skills</p>
                 <p className="text-base">
                   I have experience with these technologies :
                 </p>
@@ -47,7 +46,7 @@ export default function Home() {
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
@@ -61,7 +60,6 @@ export default function Home() {
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" />
@@ -76,7 +74,7 @@ export default function Home() {
               className="grid grid-cols-1 place-content-evenly py-16"
             >
               <div className="px-5">
-                <p className="underline py-2">projects </p>
+                <p className="text-xl py-6">projects </p>
                 <p className="text-base">
                   here is a list of my past projects :
                 </p>
@@ -88,17 +86,18 @@ export default function Home() {
               className="grid grid-cols-1 place-content-evenly py-16"
             >
               <div className="px-5">
-                <p className="underline py-2">contact me</p>
+                <p className="text-xl py-6">contact me</p>
                 <div className="flex grid-cols-2 gap-4 py-2">
-                  <a href="https://github.com/somalouin" target="_blank">
-                    <img src="icons/github.png" width={35} height={35} />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/serge-olivier-malouin-5a89a1193/"
-                    target="_blank"
-                  >
-                    <img src="icons/linkedin.png" width={35} height={35} />
-                  </a>
+                    <a href="https://github.com/somalouin" target="_blank" className="hover:bg-[#3b5998]">
+                      <img src="icons/github.png" width={35} height={35} />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/serge-olivier-malouin-5a89a1193/"
+                      target="_blank"
+                      className="hover:bg-[#3b5998]"
+                    >
+                      <img src="icons/linkedin.png" width={35} height={35} />
+                    </a>
                 </div>
               </div>
             </div>
