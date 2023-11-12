@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center py-8 bg-slate-200 dark:bg-zinc-900 font-lato font-bold text-lg text-slate-700 dark:text-zinc-400">
-        <div className="md:w-4/5 lg:w-2/5 xl:1/2 min-h-screen max-h-full">
+        <div className="md:w-4/5 lg:w-3/5 xl:1/2 min-h-screen max-h-full">
           <div id="me" className="grid grid-cols-8 py-8">
             <div className="col-start-1 col-end-6 text-2xl px-5 pb-6">
               <p>Serge-Olivier Malouin</p>
@@ -40,7 +40,7 @@ export default function Home() {
               <div className="px-5">
                 <p className="text-xl py-6">skills</p>
                 <p className="text-base">
-                  I have experience with these technologies :
+                  I have experience with the following technologies :
                 </p>
                 <div className="pt-4 gap-4 grid grid-cols-8 place-content-evenly">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
