@@ -4,6 +4,7 @@ export default function Home() {
       <div className="flex justify-center py-8 bg-slate-200 dark:bg-zinc-900 text-lg text-slate-00 dark:text-zinc-400">
         <div className="md:w-4/5 lg:w-4/5 xl:w-1/2 min-h-screen max-h-full font-mono">
           <div id="me" className="grid grid-cols-8 py-8">
+
             <div className="col-start-1 col-end-6 text-2xl px-5 pb-6">
               <p className="font-bold">Serge-Olivier Malouin</p>
               <p className="text-base py-2"> software engineer</p>
@@ -29,10 +30,13 @@ export default function Home() {
               </button>
             </div>
           </div>
+
           <div class="relative flex py-5 items-center">
               <div class="flex-grow border-t border-gray-400"></div>
           </div>
+
           <div id="content">
+
             <div
               id="about"
               className="grid grid-cols-1 place-content-evenly py-6"
@@ -46,16 +50,48 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
             <div class="relative flex py-5 items-center">
               <div class="flex-grow border-t border-gray-400"></div>
             </div>
+
             <div
-              id="skills"
+              id="experience"
+              className="grid grid-cols-1 place-content-evenly py-6"
+            >
+              <div className="px-5">
+                <p className="text-xl py-2 font-bold">experience</p>
+                <ol class="relative border-s">                  
+                  <li class="mb-10 ms-4">
+                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">september 2022 - december 2022</time>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">intern software developer</h3>
+                      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Intact</p>
+                  </li>
+                  <li class="mb-10 ms-4">
+                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">april 2021 - august 2021</time>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">web developer</h3>
+                      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Openmind Technologies inc</p>
+                  </li>
+                  <li class="ms-4">
+                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">january 2020 - august 2020</time>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">web developer</h3>
+                      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Openmind Technologies inc</p>
+                  </li>
+              </ol>
+              </div>
+            </div>
+
+            <div class="relative flex py-5 items-center">
+              <div class="flex-grow border-t border-gray-400"></div>
+            </div>
+
+            <div
+              id="stack"
               className="grid grid-cols-1 place-content-evenly py-6"
             >
               <div className="px-5">
                 <p className="text-xl py-2 font-bold">tech stack</p>
-                  <ul className="grid grid-cols-6 gap-4">
+                  <ul className="grid grid-cols-6 gap-6 py-4">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width={45} height={45} />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width={45} height={45} />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width={45} height={45} />
@@ -76,21 +112,10 @@ export default function Home() {
               </div>
             </div>
 
-            {/* <div
-              id="projects"
-              className="grid grid-cols-1 place-content-evenly py-6"
-            >
-              <div className="px-5">
-                <p className="text-xl py-6">projects </p>
-                <p className="text-base">
-                  here is a list of my past projects :
-                </p>
-              </div>
-            </div> */}
-
           </div>
         </div>
       </div>
+      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </>
   );
 }
