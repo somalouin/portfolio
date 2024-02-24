@@ -20,7 +20,7 @@ export default function Home() {
                     </a>
                 </div>
             </div>
-            <div className="col-start-8">
+            <div className="col-start-8 px-2">
               <button
                 id="theme-toggle"
                 type="button"
@@ -44,9 +44,11 @@ export default function Home() {
               <div className="px-5">
                 <p className="text-xl py-2 font-bold">about me</p>
                 <p className="text-base">
-                  I am currently graduating in software engineering at École de technologie supérieure (ÉTS) in Montreal
+                  * currently graduating in software engineering at École de technologie supérieure (ÉTS) in Montreal
                   <br/> <br/>
-                  Over a year in web and software development in front-end and back-end, though, most time spent working on back-end
+                  * worked over a year in web and software development in front-end and back-end (most time spent working on back-end)
+                  <br/><br/> 
+                  * participation in the architecture, the conception, and the development of softwares
                 </p>
               </div>
             </div>
@@ -115,7 +117,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </>
   );
 }
