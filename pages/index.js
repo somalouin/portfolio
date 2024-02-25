@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center py-8 bg-slate-200 dark:bg-zinc-900 text-lg text-slate-00 dark:text-zinc-400">
-        <div className="md:w-4/5 lg:w-4/5 xl:w-1/2 min-h-screen max-h-full font-mono">
+        <div className="md:w-3/5 lg:w-2/5 xl:w-1/3 min-h-screen max-h-full font-mono">
           <div id="me" className="grid grid-cols-8 py-8">
 
             <div className="col-start-1 col-end-6 text-2xl px-5 pb-6">
