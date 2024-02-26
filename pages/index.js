@@ -10,7 +10,7 @@ export default function Home() {
               <p className="text-base py-2"> software engineer</p>
               <div className="flex grid-cols-2 gap-4">
                     <a href="https://github.com/somalouin" target="_blank">
-                      <img src="icons/github.png" width={25} height={25} />
+                      <img id="github" width={25} height={25} />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/serge-olivier-malouin-5a89a1193/"
@@ -31,8 +31,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="relative flex py-5 items-center">
-              <div class="flex-grow border-t border-gray-400"></div>
+          <div className="relative flex py-5 items-center">
+              <div className="flex-grow border-t border-gray-400"></div>
           </div>
 
           <div id="content">
@@ -48,13 +48,13 @@ export default function Home() {
                   <br/> <br/>
                   * worked over a year in web and software development in front-end and back-end (most time spent working on back-end)
                   <br/><br/> 
-                  * participation in the architecture, the conception, and the development of softwares
+                  * participated in the architecture, the conception, and the development of softwares
                 </p>
               </div>
             </div>
 
-            <div class="relative flex py-5 items-center">
-              <div class="flex-grow border-t border-gray-400"></div>
+            <div className="relative flex py-5 items-center">
+              <div className="flex-grow border-t border-gray-400"></div>
             </div>
 
             <div
@@ -63,28 +63,28 @@ export default function Home() {
             >
               <div className="px-5">
                 <p className="text-xl py-2 font-bold">experience</p>
-                <ol class="relative border-s">                  
-                  <li class="mb-10 ms-4">
-                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">september 2022 - december 2022</time>
-                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">intern software developer</h3>
-                      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Intact</p>
+                <ol className="relative border-s">                  
+                  <li className="mb-10 ms-4">
+                      <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">september 2022 - december 2022</time>
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">intern software developer</h3>
+                      <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Intact</p>
                   </li>
-                  <li class="mb-10 ms-4">
-                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">april 2021 - august 2021</time>
-                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">web developer</h3>
-                      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Openmind Technologies inc</p>
+                  <li className="mb-10 ms-4">
+                      <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">april 2021 - august 2021</time>
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">intern web developer</h3>
+                      <p className="text-base font-normal text-gray-500 dark:text-gray-400">Openmind Technologies inc</p>
                   </li>
-                  <li class="ms-4">
-                      <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">january 2020 - august 2020</time>
-                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">web developer</h3>
-                      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Openmind Technologies inc</p>
+                  <li className="ms-4">
+                      <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">january 2020 - august 2020</time>
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white">intern web developer</h3>
+                      <p className="text-base font-normal text-gray-500 dark:text-gray-400">Openmind Technologies inc</p>
                   </li>
               </ol>
               </div>
             </div>
 
-            <div class="relative flex py-5 items-center">
-              <div class="flex-grow border-t border-gray-400"></div>
+            <div className="relative flex py-5 items-center">
+              <div className="flex-grow border-t border-gray-400"></div>
             </div>
 
             <div
