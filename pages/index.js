@@ -34,17 +34,17 @@ export default function Home() {
 
             <div
               id="about"
-              className="grid grid-cols-1 place-content-evenly pt-10 py-6"
+              className="grid grid-cols-1 place-content-evenly pt-10 py-8"
             >
               <div className="px-5">
-                <p className="text-xl py-2 font-bold">about me</p>
+                <p className="text-l py-2 font-bold">about</p>
                 <p className="text-sm">
-                  - currently graduating in software engineering at École de technologie supérieure 
+                  * currently graduating in software engineering at École de technologie supérieure 
                   <a href="https://www.etsmtl.ca/" target="_blank"> (ÉTS)</a> in Montreal
                   <br/> <br/>
-                  - over a year of experience in web and software development across interships and projects
+                  * over a year of experience in web and software development across interships and projects
                   <br/><br/>
-                  - worked in front-end and back-end (most time spent working on back-end)
+                  * worked in front-end and back-end (most time spent working on back-end)
                 </p>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function Home() {
               className="grid grid-cols-1 place-content-evenly py-8"
             >
               <div className="px-5">
-                <p className="text-xl py-2 font-bold">experience</p>
+                <p className="text-l py-2 font-bold">experience</p>
                 <ol className="relative border-s">                  
                   <li className="mb-10 ms-4">
                       <time className="mb-1 text-sm leading-none text-gray-400 dark:text-gray-500">september 2022 - december 2022</time>
@@ -85,37 +85,37 @@ export default function Home() {
               className="grid grid-cols-1 place-content-evenly py-8"
             >
               <div className="px-5">
-                <p className="text-xl py-2 font-bold">tech stack (most to less fluent)</p>
+                <p className="text-l py-2 font-bold">tech stack (most to less fluent)</p>
 
-                  <p className="text-sm pt-8">languages</p>
-                  <ul className="grid grid-cols-6 gap-6 py-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-plain.svg" width={50} height={50} />
+                  <p className="text-sm pt-2">languages</p>
+                  <ul className="grid grid-cols-6 gap-2 py-2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-plain.svg" width={45} height={45} />
                   </ul>
 
-                  <p className="text-sm pt-8">frameworks</p>
-                  <ul className="grid grid-cols-6 gap-6 py-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width={50} height={50} />
+                  <p className="text-sm pt-10">frameworks</p>
+                  <ul className="grid grid-cols-6 gap-2 py-2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width={45} height={45} />
                   </ul>
 
-                  <p className="text-sm pt-8">databases</p>
-                  <ul className="grid grid-cols-6 gap-6 py-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width={50} height={50} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width={50} height={50} />
+                  <p className="text-sm pt-10">databases</p>
+                  <ul className="grid grid-cols-6 gap-2 py-2">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width={45} height={45} />
                   </ul>
               </div>
             </div>
