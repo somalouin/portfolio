@@ -51,27 +51,27 @@ export default function Home() {
                         <div class="col-span-12 space-y-12 relative px-4 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:dark:bg-gray-600 before:bg-gray-700">
                           
                           <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black before:dark:bg-white">
-                            <h3 class="text-base"> software developer (intership) </h3>
+                            <h3 class="text-base"> software developer (intership 3) </h3>
                             <time class="text-xs dark:text-gray-400">september 2022 - december 2022</time>
                             <p className="mb-4 text-sm">Intact Insurance</p>
                           </div>
 
                           <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black before:dark:bg-white">
-                            <h3 class="text-base"> web developer (intership) </h3>
+                            <h3 class="text-base"> web developer (intership 2) </h3>
                             <time class="text-xs dark:text-gray-400">april 2021 - august 2021</time>
-                            <p className="mb-4 text-sm">Openmind Techologies inc</p>
+                            <p className="mb-4 text-sm">Openmind Techologies Inc.</p>
                           </div>
 
                           <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] sm:before:z-[1] before:bg-black before:dark:bg-white">
                             <h3 class="text-base">web developer</h3>
                             <time class="text-xs dark:text-gray-400">may 2020 - august 2020</time>
-                            <p className="mb-4 text-sm">Openmind Techologies inc</p>
+                            <p className="mb-4 text-sm">Openmind Techologies Inc.</p>
                           </div>
 
                           <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black before:dark:bg-white">
-                            <h3 class="text-base">web developer (intership)</h3>
+                            <h3 class="text-base">web developer (intership 1)</h3>
                             <time class="text-xs dark:text-gray-400">january 2020 - may 2020</time>
-                            <p className="mb-4 text-sm">Openmind Techologies inc</p>
+                            <p className="mb-4 text-sm">Openmind Techologies Inc.</p>
                           </div>
 
                         </div>
@@ -99,13 +99,13 @@ export default function Home() {
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" width={45} height={45} />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width={45} height={45} />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-plain.svg" width={45} height={45} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-plain.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width={45} height={45} />
                   </ul>
 
                   <p className="text-sm pt-6">frameworks</p>
                   <ul className="grid grid-cols-8">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width={45} height={45} />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" width={45} height={45} />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width={45} height={45} />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width={45} height={45} />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width={45} height={45} />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width={45} height={45} />
