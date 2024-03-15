@@ -3,7 +3,7 @@ export default function Home() {
     <>
       <div className="flex flex-col items-center justify-center font-mono py-8 bg-white dark:bg-black text-slate-00 dark:text-zinc-100">
         
-        <div id="content" className="px-4">
+        <div id="content" className="md:w-3/5 lg:w-2/5 xl:w-1/3">
           
           <div
             id="me"
