@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-full flex items-center justify-center font-mono py-8 bg-white dark:bg-black text-slate-00 dark:text-zinc-100">
+    <div className="min-h-full flex items-center justify-center font-mono py-8 bg-white text-black">
       <div id="content" className="px-4 md:w-4/5 lg:w-3/5 xl:w-1/3">
         <div
           id="me"
@@ -37,29 +37,29 @@ export default function Home() {
                 <div class="grid gap-4 mx-2">
 
                   <div class="relative col-span-12 px-4 space-y-6">
-                    <div class="col-span-12 space-y-12 relative px-4 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:dark:bg-gray-600 before:bg-gray-700">
+                    <div class="col-span-12 space-y-12 relative px-4 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700">
                       
-                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black before:dark:bg-white">
+                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
                         <h3 class="font-bold text-sm"> software developer (intership 3) </h3>
-                        <time class="text-xs dark:text-gray-400">september 2022 - december 2022</time>
+                        <time class="text-xs">september 2022 - december 2022</time>
                         <p className="mb-4 text-sm">Intact Insurance</p>
                       </div>
 
-                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black before:dark:bg-white">
+                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
                         <h3 class="font-bold text-sm"> web developer (intership 2) </h3>
-                        <time class="text-xs dark:text-gray-400">april 2021 - august 2021</time>
+                        <time class="text-xs">april 2021 - august 2021</time>
                         <p className="mb-4 text-sm">Openmind Techologies Inc.</p>
                       </div>
 
-                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] sm:before:z-[1] before:bg-black before:dark:bg-white">
+                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] sm:before:z-[1] before:bg-black">
                         <h3 class="font-bold text-sm">web developer</h3>
-                        <time class="text-xs dark:text-gray-400">may 2020 - august 2020</time>
+                        <time class="text-xs">may 2020 - august 2020</time>
                         <p className="mb-4 text-sm">Openmind Techologies Inc.</p>
                       </div>
 
-                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black before:dark:bg-white">
+                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
                         <h3 class="font-bold text-sm">web developer (intership 1)</h3>
-                        <time class="text-xs dark:text-gray-400">january 2020 - may 2020</time>
+                        <time class="text-xs">january 2020 - may 2020</time>
                         <p className="mb-4 text-sm">Openmind Techologies Inc.</p>
                       </div>
 
@@ -123,12 +123,6 @@ export default function Home() {
             >
               linkedin
             </a>
-            <button
-              id="theme-toggle"
-              type="button"
-            >
-              <img id="theme-icon" width={16} height={16} />
-            </button>
           </div>
       </div>
     </div>
