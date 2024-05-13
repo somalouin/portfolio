@@ -40,6 +40,12 @@ export default function Home() {
                     <div class="col-span-12 space-y-12 relative px-4 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700">
                       
                       <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
+                        <h3 class="font-bold text-sm"> full stack web developer (intership 4) </h3>
+                        <time class="text-xs">may 2024 - present</time>
+                        <p className="mb-4 text-sm">BetterSleep by Ipnos</p>
+                      </div>
+
+                      <div class="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
                         <h3 class="font-bold text-sm"> software developer (intership 3) </h3>
                         <time class="text-xs">september 2022 - december 2022</time>
                         <p className="mb-4 text-sm">Intact Insurance</p>
