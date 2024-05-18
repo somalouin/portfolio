@@ -4,9 +4,9 @@ import Home from "./index.js";
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <> 
+    <>
       <Head>
-        <link rel='shortcut icon' href='icons/favicon.ico' />
+        <link rel="shortcut icon" href="icons/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
