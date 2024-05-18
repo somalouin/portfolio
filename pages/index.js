@@ -105,9 +105,7 @@ export default function Home() {
             <p className="text-sm pt-2">&gt; languages</p>
             <ul className="px-4 py-2 grid grid-cols-8 gap-6">
               <Image
-                src={
-                  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                }
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                 width={35}
                 height={35}
                 alt="javascript"
