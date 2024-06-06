@@ -11,7 +11,7 @@ export default function Home() {
 
         <div id="about" className="pt-10 py-6">
           <div>
-            <p className="text-l font-bold">about</p>
+            <p className="text-xl font-bold">about</p>
             <p className="text-sm">
               currently graduating in software engineering at École de
               technologie supérieure (
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
         <div id="experience" className="py-10">
           <div>
-            <p className="text-l font-bold">experience</p>
+            <p className="text-xl font-bold">experience</p>
             <section>
               <div className="container max-w-5xl py-2 mx-auto">
                 <div className="grid gap-4 mx-2">
@@ -69,17 +69,11 @@ export default function Home() {
                         <p className="mb-4 text-sm">
                           Openmind Techologies Inc.
                         </p>
-                      </div>
-
-                      <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] sm:before:z-[1] before:bg-black">
                         <h3 className="font-bold text-sm">web developer</h3>
                         <time className="text-xs">may 2020 - august 2020</time>
                         <p className="mb-4 text-sm">
                           Openmind Techologies Inc.
                         </p>
-                      </div>
-
-                      <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
                         <h3 className="font-bold text-sm">
                           web developer (intership 1)
                         </h3>
@@ -97,7 +91,7 @@ export default function Home() {
         </div>
         <div id="stack" className="py-10">
           <div>
-            <p className="text-l font-bold">tech stack</p>
+            <p className="text-xl font-bold">tech stack</p>
 
             <p className="text-sm pt-2">languages</p>
             <ul className="px-4 py-2 grid grid-cols-8 gap-6">
