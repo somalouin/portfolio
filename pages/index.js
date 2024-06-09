@@ -1,4 +1,5 @@
 import Image from "next/image";
+import About from "../components/about";
 
 export default function Home() {
   return (
@@ -8,31 +9,7 @@ export default function Home() {
           <p className="text-xl font-bold">Serge-Olivier</p>
           <p className="text-xl font-bold">Malouin</p>
         </div>
-
-        <div id="about" className="pt-10 py-6">
-          <div>
-            <p className="text-xl font-bold">about</p>
-            <p className="text-sm">
-              currently graduating in software engineering at École de
-              technologie supérieure (
-              <a
-                href="https://www.etsmtl.ca/"
-                target="_blank"
-                className="underline"
-              >
-                ÉTS
-              </a>
-              ) in Montreal
-              <br /> <br />
-              over a year of experience in web and software development across
-              interships and projects
-              <br />
-              <br />
-              worked fullstack, mainly using js frameworks, but prefer backend
-              work
-            </p>
-          </div>
-        </div>
+        <About />
         <div id="experience" className="py-10">
           <div>
             <p className="text-xl font-bold">experience</p>
