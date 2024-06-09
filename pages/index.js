@@ -28,8 +28,8 @@ export default function Home() {
               interships and projects
               <br />
               <br />
-              worked in frontend, mainly using js frameworks, but prefer
-              backend work
+              worked in frontend, mainly using js frameworks, but prefer backend
+              work
             </p>
           </div>
         </div>
