@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import Head from "next/head.js";
-import Home from "./index.js";
 
 export default function MyApp({ Component, pageProps }) {
   return (
