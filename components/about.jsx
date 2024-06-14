@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div id="about" className="pt-10 py-6">
       <div>
-        <p className="text-xl font-bold">about</p>
+        <p className="text-l font-bold">[about]</p>
         <p className="text-sm">
           currently graduating in software engineering at École de technologie
           supérieure (

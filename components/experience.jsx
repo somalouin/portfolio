@@ -2,7 +2,7 @@ const Experience = () => {
   return (
     <div id="experience" className="py-10">
       <div>
-        <p className="text-xl font-bold">experience</p>
+        <p className="text-l font-bold">[experience]</p>
         <section>
           <div className="container max-w-5xl py-2 mx-auto">
             <div className="grid gap-4 mx-2">

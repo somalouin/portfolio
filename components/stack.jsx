@@ -4,7 +4,7 @@ const Stack = () => {
   return (
     <div id="stack" className="py-10">
       <div>
-        <p className="text-xl font-bold">tech stack</p>
+        <p className="text-l font-bold">[tech stack]</p>
 
         <p className="text-sm pt-2">languages</p>
         <ul className="px-4 py-2 grid grid-cols-8 gap-6">
