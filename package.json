@@ -20,7 +20,7 @@
 	},
 	"scripts": {
 		"dev": "next dev",
-		"build": "npx @biomejs/biome check --write . && next build",
+		"build": "next build",
 		"start": "next start",
 		"lint": "npx @biomejs/biome lint --write .",
 		"format": "npx @biomejs/biome format --write ."
