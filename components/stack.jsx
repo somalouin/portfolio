@@ -5,7 +5,6 @@ const Stack = () => {
 		<div id="stack" className="py-10">
 			<div>
 				<p className="text-l font-bold">[tech stack]</p>
-
 				<p className="text-sm pt-2">languages</p>
 				<ul className="px-4 py-2 grid grid-cols-8 gap-6">
 					<Image
@@ -45,7 +44,6 @@ const Stack = () => {
 						alt="golang"
 					/>
 				</ul>
-
 				<p className="text-sm pt-6">frameworks</p>
 				<ul className="px-4 py-2 grid grid-cols-8 gap-6">
 					<Image
@@ -85,7 +83,6 @@ const Stack = () => {
 						alt="spring"
 					/>
 				</ul>
-
 				<p className="text-sm pt-6">databases</p>
 				<ul className="px-4 py-2 grid grid-cols-8 gap-6">
 					<Image
