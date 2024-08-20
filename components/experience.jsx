@@ -13,7 +13,7 @@ const Experience = () => {
 										<h3 className="font-bold text-sm">
 											web developer (intership 4)
 										</h3>
-										<time className="text-xs">may 2024 - present</time>
+										<time className="text-xs">may 2024 - august 2024</time>
 									</div>
 
 									<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
