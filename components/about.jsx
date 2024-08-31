@@ -4,7 +4,7 @@ const About = () => {
 			<div>
 				<p className="text-l font-bold">[about]</p>
 				<p className="text-sm">
-					currently graduating in software engineering at École de technologie
+					recently graduated in software engineering at École de technologie
 					supérieure (
 					<a
 						href="https://www.etsmtl.ca/"
