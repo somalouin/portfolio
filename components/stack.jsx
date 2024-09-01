@@ -86,6 +86,12 @@ const Stack = () => {
 				<p className="text-sm pt-6">databases</p>
 				<ul className="px-4 py-2 grid grid-cols-8 gap-6">
 					<Image
+						src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+						width={40}
+						height={40}
+						alt="firebase"
+					/>
+					<Image
 						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
 						width={40}
 						height={40}
