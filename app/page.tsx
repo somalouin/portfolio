@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { AboutSection } from "./_components/AboutSection";
 import { ExperienceSection } from "./_components/ExperienceSection";
 import { Footer } from "./_components/Footer";
