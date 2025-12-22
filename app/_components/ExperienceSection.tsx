@@ -9,13 +9,13 @@ export const ExperienceSection = () => {
               <div className="relative col-span-12 px-4 space-y-6">
                 <div className="col-span-12 space-y-12 relative px-4 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700">
                   <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
-                    <p className="mb-4 text-sm italic">Sinistar</p>
+                    <p className="mb-2 text-sm italic">Sinistar</p>
                     <h3 className="font-bold text-sm">software engineer</h3>
                     <time className="text-xs">september 2024 - now</time>
                   </div>
 
                   <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
-                    <p className="mb-4 text-sm italic">BetterSleep by Ipnos</p>
+                    <p className="mb-2 text-sm italic">BetterSleep by Ipnos</p>
                     <h3 className="font-bold text-sm">
                       full stack developer (intership 4)
                     </h3>
@@ -23,7 +23,7 @@ export const ExperienceSection = () => {
                   </div>
 
                   <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
-                    <p className="mb-4 text-sm italic">Intact Insurance</p>
+                    <p className="mb-2 text-sm italic">Intact Insurance</p>
                     <h3 className="font-bold text-sm">
                       software developer (intership 3)
                     </h3>
@@ -33,7 +33,7 @@ export const ExperienceSection = () => {
                   </div>
 
                   <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-black">
-                    <p className="mb-4 text-sm italic">
+                    <p className="mb-2 text-sm italic">
                       Openmind Techologies Inc.
                     </p>
                     <h3 className="font-bold text-sm">
