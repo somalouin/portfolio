@@ -1,5 +1,5 @@
+import { databases, frameworks, languages } from "../_constants/stacks";
 import { StackCategory } from "./StackCategory";
-import { languages, frameworks, databases } from "../_constants/stacks";
 
 export const StackSection = () => {
   return (

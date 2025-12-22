@@ -1,5 +1,5 @@
-import { ExperienceItem } from "./ExperienceItem";
 import { experiences } from "../_constants/experiences";
+import { ExperienceItem } from "./ExperienceItem";
 
 export const ExperienceSection = () => {
   return (
