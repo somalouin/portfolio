@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome check",
-    "format": "biome format --write"
+    "lint": "biome lint .",
+    "format": "biome check --write .",
+    "format:ci": "biome ci ."
   },
   "dependencies": {
     "react": "19.2.0",
