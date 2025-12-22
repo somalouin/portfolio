@@ -12,11 +12,11 @@ export const AboutSection = () => {
             ÉTS
           </Link>
           ) in Montreal
-          <br /> <br />- over a year of experience in web and software
-          development across interships and projects
+          <br /> <br />- 2+ years of experience in web and software development
+          across interships, jobs and personal projects
           <br />
           <br />- worked mostly full-stack, mainly using js/ts frameworks and
-          python, but prefer backend work
+          python, but prefer backend work and database management
         </p>
       </div>
     </div>
