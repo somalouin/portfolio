@@ -13,9 +13,11 @@ export default function Page() {
   return (
     <div className="min-h-full text-black">
       <Header />
-      <AboutSection />
-      <ExperienceSection />
-      <StackSection />
+      <div className="pt-10">
+        <AboutSection />
+        <ExperienceSection />
+        <StackSection />
+      </div>
     </div>
   );
 }
