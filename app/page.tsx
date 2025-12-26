@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { AboutSection } from "./_components/AboutSection";
 import { ExperienceSection } from "./_components/ExperienceSection";
 import { Header } from "./_components/Header";
+import { RotatingCube } from "./_components/RotatingCube";
 import { StackSection } from "./_components/StackSection";
 
 export const metadata: Metadata = {
@@ -17,6 +18,9 @@ export default function Page() {
         <AboutSection />
         <ExperienceSection />
         <StackSection />
+      </div>
+      <div className="px-4 py-8">
+        <RotatingCube />
       </div>
     </div>
   );
