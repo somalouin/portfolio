@@ -14,14 +14,12 @@ export default function Page() {
   return (
     <div className="min-h-full text-black">
       <Header />
-      <div className="pt-10">
-        <AboutSection />
-        <ExperienceSection />
-        <StackSection />
-      </div>
       <div className="px-4 py-8">
         <RotatingCube />
       </div>
+      <AboutSection />
+      <ExperienceSection />
+      <StackSection />
     </div>
   );
 }
