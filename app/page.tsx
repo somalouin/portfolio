@@ -14,7 +14,7 @@ export default function Page() {
   return (
     <div className="min-h-full text-black">
       <Header />
-      <div className="px-4 py-8">
+      <div className="px-4">
         <RotatingCube />
       </div>
       <AboutSection />

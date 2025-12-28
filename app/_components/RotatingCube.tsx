@@ -143,7 +143,7 @@ export function RotatingCube() {
 
     camera.position.z = CAMERA_DISTANCE;
 
-    let animationId: number;
+    let animationId: number = 0;
     const animate = () => {
       animationId = requestAnimationFrame(animate);
       cube.rotation.x += ROTATION_SPEED;
