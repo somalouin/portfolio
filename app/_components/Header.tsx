@@ -16,7 +16,7 @@ export const Header = () => {
             github
           </Link>
           <Link
-            href="https://www.linkedin.com/in/serge-olivier-malouin-5a89a1193/"
+            href="https://www.linkedin.com/in/serge-olivier-malouin-b-eng-5a89a1193/"
             target="_blank"
             className="hover:underline transition-[text-decoration] duration-200"
           >
