@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RotatingCube } from "./RotatingCube";
 
 export const Header = () => {
   return (
@@ -7,22 +8,27 @@ export const Header = () => {
         <div>
           <p className="text-xl font-bold">Serge-Olivier Malouin</p>
         </div>
-        <nav className="flex gap-6">
-          <Link
-            href="https://github.com/somalouin"
-            target="_blank"
-            className="hover:underline transition-[text-decoration] duration-200"
-          >
-            github
-          </Link>
-          <Link
-            href="https://www.linkedin.com/in/serge-olivier-malouin-b-eng-5a89a1193/"
-            target="_blank"
-            className="hover:underline transition-[text-decoration] duration-200"
-          >
-            linkedin
-          </Link>
-        </nav>
+        <div className="flex items-center gap-6">
+          <nav className="flex gap-6">
+            <Link
+              href="https://github.com/somalouin"
+              target="_blank"
+              className="hover:underline transition-[text-decoration] duration-200"
+            >
+              github
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/serge-olivier-malouin-b-eng-5a89a1193/"
+              target="_blank"
+              className="hover:underline transition-[text-decoration] duration-200"
+            >
+              linkedin
+            </Link>
+          </nav>
+          <div className="w-16 h-16">
+            <RotatingCube />
+          </div>
+        </div>
       </div>
     </header>
   );

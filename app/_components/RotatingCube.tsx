@@ -185,7 +185,7 @@ export function RotatingCube() {
   return (
     <div
       ref={containerRef}
-      className="w-full h-[400px] rounded-lg overflow-hidden"
+      className="w-full h-full rounded-lg overflow-hidden"
     />
   );
 }
